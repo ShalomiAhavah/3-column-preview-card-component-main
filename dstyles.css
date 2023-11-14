@@ -1,0 +1,79 @@
+@media screen and (min-width: 377px) {
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+.container {
+    height: 100vh;
+    width: 96vw;
+    overflow-x: hidden;
+}
+
+.canvas {
+    height: 100%;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.car {
+    height: 55vh;
+    padding: 60px;
+    margin: auto;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+    color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
+}
+
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+    color: hsl(179, 100%, 13%);
+}
+
+
+.car_name {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+    margin: 2vh 0 3vh 0;
+}
+
+.car_icon {
+    margin: 1vh;
+}
+
+.car_p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.learn_more {
+    height: 50px;
+    width: 160px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: inherit;
+    display: block;
+    margin: 10vh auto;
+    border: none;
+}
+.learn_more:hover {
+    background-color: inherit;
+    border: 2px solid white;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+}
